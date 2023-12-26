@@ -59,7 +59,7 @@ def Python_text(text="is cool"):
     """
     Renders the modified input text for the '/python/<text>' route.
     """
-    return f"python {text}".replace("_", " ")
+    return f"Python {text}".replace("_", " ")
 
 
 if __name__ == "__main__":
