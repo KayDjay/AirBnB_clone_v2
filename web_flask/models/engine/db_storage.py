@@ -68,4 +68,4 @@ class DBStorage:
         """
         The close function is used to close a session.
         """
-        self.__session.close
+        self.__session.close()
